@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background-color: #f8aa03;
+}
+.wrapper{
+	width: 840px;
+	margin: 20px auto;
+	border: 1px solid #f8aa03;
+}
+.wrapper a{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: left;
+}
+.wrapper a:hover{
+	text-decoration: underline;
+}
+a.active{
+	text-decoration: underline;
+}
+.menu a{
+	text-align: left;
+	margin-bottom: 10px;
+	font-style: Times New Roman;
+}
+.menu{
+	display: flex;
+}
+nav a{
+	margin: 10px;
+	font-size: 18px;
+}
